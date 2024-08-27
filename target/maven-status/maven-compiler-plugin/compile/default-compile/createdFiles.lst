@@ -1,0 +1,8 @@
+br\senac\sp\impostos\ImpostosMain.class
+br\senac\sp\impostos\presentation\rest\ImpostosController.class
+br\senac\sp\impostos\application\service\impl\CalcularImpostosServiceImpl.class
+br\senac\sp\impostos\application\usecase\CalcularImpostosUseCase.class
+br\senac\sp\impostos\application\usecase\impl\CalcularImpostosUseCaseImpl.class
+br\senac\sp\impostos\application\dto\ImpostosRequest.class
+br\senac\sp\impostos\application\service\CalcularImpostosService.class
+br\senac\sp\impostos\domain\entity\ImpostoEntity.class
