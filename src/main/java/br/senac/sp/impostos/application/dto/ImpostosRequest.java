@@ -1,12 +1,16 @@
 package br.senac.sp.impostos.application.dto;
 
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.util.Objects;
 
 public class ImpostosRequest {
 
     private Double salarioBruto;
 
-    public ImpostosRequest(final Double salarioBruto){
+    @JsonCreator
+    public ImpostosRequest(@JsonProperty("salarioBruto") final Double salarioBruto){
         this.salarioBruto = salarioBruto;
     }
 

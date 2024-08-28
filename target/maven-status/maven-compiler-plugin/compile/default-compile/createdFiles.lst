@@ -6,3 +6,5 @@ br\senac\sp\impostos\application\usecase\impl\CalcularImpostosUseCaseImpl.class
 br\senac\sp\impostos\application\dto\ImpostosRequest.class
 br\senac\sp\impostos\application\service\CalcularImpostosService.class
 br\senac\sp\impostos\domain\entity\ImpostoEntity.class
+br\senac\sp\impostos\presentation\rest\advice\GlobalExceptionHandler.class
+br\senac\sp\impostos\presentation\rest\advice\GlobalExceptionHandler$ErrorResponse.class

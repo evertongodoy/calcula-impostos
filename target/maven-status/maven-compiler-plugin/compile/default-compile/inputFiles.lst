@@ -2,6 +2,7 @@ C:\Users\everton.mgodoy\OneDrive - sp.senac.br\Documentos\Projetos\calcula-impos
 C:\Users\everton.mgodoy\OneDrive - sp.senac.br\Documentos\Projetos\calcula-impostos\src\main\java\br\senac\sp\impostos\application\service\CalcularImpostosService.java
 C:\Users\everton.mgodoy\OneDrive - sp.senac.br\Documentos\Projetos\calcula-impostos\src\main\java\br\senac\sp\impostos\presentation\rest\ImpostosController.java
 C:\Users\everton.mgodoy\OneDrive - sp.senac.br\Documentos\Projetos\calcula-impostos\src\main\java\br\senac\sp\impostos\application\usecase\impl\CalcularImpostosUseCaseImpl.java
+C:\Users\everton.mgodoy\OneDrive - sp.senac.br\Documentos\Projetos\calcula-impostos\src\main\java\br\senac\sp\impostos\presentation\rest\advice\GlobalExceptionHandler.java
 C:\Users\everton.mgodoy\OneDrive - sp.senac.br\Documentos\Projetos\calcula-impostos\src\main\java\br\senac\sp\impostos\application\dto\ImpostosRequest.java
 C:\Users\everton.mgodoy\OneDrive - sp.senac.br\Documentos\Projetos\calcula-impostos\src\main\java\br\senac\sp\impostos\application\usecase\CalcularImpostosUseCase.java
 C:\Users\everton.mgodoy\OneDrive - sp.senac.br\Documentos\Projetos\calcula-impostos\src\main\java\br\senac\sp\impostos\ImpostosMain.java
