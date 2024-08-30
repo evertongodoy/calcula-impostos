@@ -13,7 +13,7 @@ public class ImpostoEntity {
     }
 
     public Double calcularImpostoDevido(){
-        return salarioBruto * (porcentagemImposto / 100);
+        return salarioBruto * (porcentagemImposto / (100 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2));
     }
 
     @Override

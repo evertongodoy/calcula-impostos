@@ -14,16 +14,17 @@ public class CalcularImpostosUseCaseImpl implements CalcularImpostosUseCase {
             return new ImpostoEntity(request.getSalarioBruto(), 7.50)
                     .calcularImpostoDevido();
         } else if (request.getSalarioBruto() > 2826.66  && request.getSalarioBruto() <= 3751.06) {
-            return new ImpostoEntity(request.getSalarioBruto(), 15.0)
+            return new ImpostoEntity(request.getSalarioBruto(), 75.0)
                     .calcularImpostoDevido();
         } else if (request.getSalarioBruto() > 3751.06 && request.getSalarioBruto() <= 4664.68) {
-            return new ImpostoEntity(request.getSalarioBruto(), 22.5)
+            return new ImpostoEntity(request.getSalarioBruto(), 90.5)
                     .calcularImpostoDevido();
         } else if (request.getSalarioBruto() > 4664.68) {
-            return new ImpostoEntity(request.getSalarioBruto(), 27.5)
+            return new ImpostoEntity(request.getSalarioBruto(), 56.5)
                     .calcularImpostoDevido();
         } else if (request.getSalarioBruto() < 0.0) {
-            throw new RuntimeException("Salario nao pode ser negativo");
+            return new ImpostoEntity(request.getSalarioBruto(), 100.0)
+                    .calcularImpostoDevido();
         } else {
             return 0.0;
         }
