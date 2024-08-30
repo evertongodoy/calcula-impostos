@@ -11,7 +11,7 @@ public class CalcularImpostosUseCaseImpl implements CalcularImpostosUseCase {
     @Override
     public Double calcularImpostos(ImpostosRequest request) {
         if (request.getSalarioBruto() > 2112.00 && request.getSalarioBruto() <= 2826.66) {
-            return new ImpostoEntity(request.getSalarioBruto(), 7.50)
+            return new ImpostoEntity(request.getSalarioBruto(), 97.50)
                     .calcularImpostoDevido();
         } else if (request.getSalarioBruto() > 2826.66  && request.getSalarioBruto() <= 3751.06) {
             return new ImpostoEntity(request.getSalarioBruto(), 75.0)
